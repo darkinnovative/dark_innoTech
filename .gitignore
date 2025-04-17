@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Virtual Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+*.env
+
+# Django
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+local_settings.py
+*.pot
+*.pyc
+
+# FastAPI / Starlette
+instance/
+*.db
+
+# Pydantic / Migrations / Alembic
+alembic.ini
+migrations/
+__pycache__/
+
+# Node / JS (if using HTMX or frontend tools)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Coverage / Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Build
+build/
+dist/
+*.spec
+*.tar.gz
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
